@@ -13,11 +13,11 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //setup index
 app.get('/', function(req,res){
-    res.send("this is index")
+    res.send("this is index, edit dari hanif ke reponya panji")
 });
 
 // setup server
 var port = 3000;
 app.listen(port, function(){
-    console.log('Server is running brayy on port'+port);
+    console.log('Server is running brayy on port '+port);
 });
