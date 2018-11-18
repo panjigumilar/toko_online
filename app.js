@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //setup index
 app.get('/', function(req,res){
-    res.send("this is index")
+    res.send("this is index tes")
 });
 
 // setup server
