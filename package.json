@@ -1,14 +1,17 @@
 {
-  "name": "toko_online",
+  "name": "toko-online",
   "version": "1.0.0",
-  "description": "toko online",
-  "main": "index.js",
+  "description": "project case fullstack js bootcamp bandung I",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Hanif Ashar Al Fajari",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12",
+    "nodemon": "^1.18.6"
   }
 }
